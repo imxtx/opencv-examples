@@ -9,3 +9,7 @@ There are lots of useful OpenCV examples, have fun!
 - [Read from your webcam](python/read_video_from_webcam.py)
 - [Wirte a video file from webcam](python/write_video_from_webcam.py)
 - [Split a video into images](python/split_video.py)
+
+**Basic Image Manipulations**:
+
+- [Resize an image](python/resize.py)
