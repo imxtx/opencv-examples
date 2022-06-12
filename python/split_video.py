@@ -3,14 +3,14 @@ import numpy
 import os
 
 
-def split_video(filename: str) -> list[numpy.ndarray]:
+def split_video(filename: str) -> list[cv2.Mat]:
     """Split a video into images
 
     Args:
         filename (str): filename of video
 
     Returns:
-        list[numpy.ndarray]: list of frames
+        list[cv2.Mat]: list of frames
     """
     vid_cap = cv2.VideoCapture(filename)
     
@@ -29,11 +29,11 @@ def split_video(filename: str) -> list[numpy.ndarray]:
     return frames
 
 
-def save_frames(frames: list[numpy.ndarray], path: str, ext: str="jpg") -> None:
+def save_frames(frames: list[cv2.Mat], path: str, ext: str="jpg") -> None:
     """Save frames as images
 
     Args:
-        frames (list[numpy.ndarray]): list of frames
+        frames (list[cv2.Mat]): list of frames
         path (str): path to save frames
         ext (str): file extension, defaults to jpg
     """
