@@ -1,6 +1,6 @@
 # OpenCV Examples
 
-There are lots of useful OpenCV examples, have fun!
+There are lots of OpenCV examples (mainly in Python3), have fun!
 
 **File Operations**:
 
