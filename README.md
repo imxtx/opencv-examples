@@ -13,3 +13,4 @@ There are lots of OpenCV examples (mainly in Python3), have fun!
 **Basic Image Manipulations**:
 
 - [Resize an image](python/resize.py)
+- [Crop an image](python/crop.py)
